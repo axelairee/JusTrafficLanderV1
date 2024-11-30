@@ -39,16 +39,18 @@ This project is built using:
 ## 📂 Folder Structure
 
 ```plaintext
-├── index.html          # Main landing page
-├── form.html           # Contact form page
-├── privacy-policy.html # Privacy Policy page
-├── terms.html          # Terms and Conditions page
-├── css/
-│   ├── style.css       # Global styles
-│   ├── bootstrap.min.css # Bootstrap framework
+├── 📁 css/                  # Stylesheets folder
+│   ├── bootstrap.min.css    # Bootstrap framework
 │   ├── fontawesome-all.min.css # FontAwesome icons
-├── images/
-│   ├── logo.png        # Website logo
-│   ├── favicon.png     # Favicon for the website
-│   └── icons/          # Custom icons for sections
-└── README.md           # Project readme
+│   ├── style.css            # Custom global styles
+├── 📁 fonts/                # Fonts folder (if applicable)
+├── 📁 images/               # Image assets
+│   ├── favicon.png          # Favicon for the website
+│   ├── logo.png             # Main logo
+├── 📁 js/                   # JavaScript files (if applicable)
+├── form.html                # Contact Form Page
+├── index.html               # Main Landing Page
+├── privacypolicy.html       # Privacy Policy Page
+├── termsandconditions.html  # Terms and Conditions Page
+├── test.html                # Optional test page
+└── README.md                # Documentation file
